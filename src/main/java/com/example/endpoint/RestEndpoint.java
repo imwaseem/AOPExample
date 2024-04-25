@@ -14,7 +14,7 @@ public class RestEndpoint {
 
     @GetMapping("/getDummyModel")
     public DummyModel getDummyModel(){
-        System.out.println("endpoint getDummyModel() execution test started");
+        System.out.println("endpoint getDummyModel() execution test hello world started");
         return customService.getDummyModel();
     }
 }
